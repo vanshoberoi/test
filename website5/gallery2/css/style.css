@@ -6,26 +6,48 @@
   margin: 0 auto;
 }
 
+nav {
+  /* position: fixed!important; */
+  z-index: 999;
+}
+
 .brand-logo img {
-  height: 50%;
-    width:20%;
-    position:sticky;
+    width:4rem;
+    position: sticky;
     background-color: darkgoldenrod;
-    
+
+}
+.brand-logo {
+  display: flex!important;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 992px) {
+
+nav .brand-logo {
+    left: 50%;
+    /* right:50%; */
+}
+
 }
 ul{
   color: darkgoldenrod;
 }
+body {
+  overflow-x:hidden;
+  }
 header{
   text-align: left;
-  text-decoration-color: darkgoldenrod;
+  text-decoration-color:#BA9D57;
+
 
 }
 header ul li a,
 nav .material-icons {
     background-color: black;
   font-weight: 500;
-  color: darkgoldenrod;
+  color: #BA9D57;
+
 }
 .m-p-g__thumbs-img {
   margin: 0;
