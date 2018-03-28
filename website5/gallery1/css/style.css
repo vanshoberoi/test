@@ -6,7 +6,7 @@
   margin: 0 auto;
 } 
 nav {
-  position: fixed!important; 
+ /* position: fixed!important; */
   z-index: 999;
 }
 
